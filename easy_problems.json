@@ -1,0 +1,327 @@
+{
+    "problems": [
+      {
+        "statement": "Given a list of strings words and a string letters, return the length of longest string in words that can be made from letters in letters. If no word can be made, return 0. Note that you can't reuse letters.",
+        "link": "https://binarysearch.com/problems/Word-Formation",
+        "categories": [
+            "string",
+            "hash_table"
+        ]
+      },
+      {
+        "statement": "Given an integer n, return the nth (0-indexed) row of Pascal's triangle. Pascal's triangle can be created as follows: In the top row, there is an array of 1. Each subsequent row is created by adding the number above and to the left with the number above and to the right, treating empty elements as 0.",
+        "link": "https://binarysearch.com/problems/Pascal's-Triangle",
+        "categories": [
+            "math"
+        ]
+      },
+      {
+        "statement": "Given a lowercase alphabet string s, return the length of the longest substring with same characters.",
+        "link": "https://binarysearch.com/problems/Longest-Consecutive-Duplicate-String",
+        "categories": [
+            "string"
+        ]
+      },
+      {
+        "statement": "You are given a list of integers tasks and another list of integers people. The integer tasks[i] represents the amount of strength required to perform the ith task. people[i] represents the amount of strength the ith person has. Return the number of tasks that can be finished if one person can perform at most one task.",
+        "link": "https://binarysearch.com/problems/Task-Hare",
+        "categories": [
+            "array"
+        ]
+      },
+      {
+        "statement": "You are given a list of integers nums which contains at least one 1. Return whether all the 1s appear consecutively.",
+        "link": "https://binarysearch.com/problems/Consecutive-Ones",
+        "categories": [
+            "array",
+            "greedy"
+        ]
+      },
+      {
+        "statement": "Given a string s, return whether it is a palindrome.",
+        "link": "https://binarysearch.com/problems/Check-Palindrome",
+        "categories": [
+            "two_pointers",
+            "string"
+        ]
+      },
+      {
+        "statement": "Given a lowercase alphabet string s, determine whether it has all unique characters.",
+        "link": "https://binarysearch.com/problems/A-Unique-String",
+        "categories": [
+            "hash_table"
+        ]
+      },
+      {
+        "statement": "You are given a string animals and another string dinosaurs. Every letter in animals represents a different type of animal and every unique character in dinosaurs represents a different dinosaur. Return the total number of dinosaurs in animals.",
+        "link": "https://binarysearch.com/problems/Counting-Dinosaurs",
+        "categories": [
+            "hash_table"
+        ]
+      },
+      {
+        "statement": "Given a two-dimensional matrix of characters board and a string target, return whether the target can be found in the matrix by going left-to-right, or up-to-down unidirectionally.",
+        "link": "https://binarysearch.com/problems/Unidirectional-Word-Search",
+        "categories": [
+            "array"
+        ]
+      },
+      {
+        "statement": "Given a list of unique integers nums sorted in ascending order, return the minimum i such that nums[i] == i. If there's no solution, return -1. This should be done in O(log(n)) time.",
+        "link": "https://binarysearch.com/problems/Fixed-Point",
+        "categories": [
+            "array",
+            "binary_search"
+        ]
+      },
+      {
+        "statement": "You are given two strings typed and target. You want to write target, but the keyboard is stuck so some characters may be written 1 or more times. Return whether it's possible that typed was meant to write target.",
+        "link": "https://binarysearch.com/problems/Stuck-Keyboard",
+        "categories": [
+            "string",
+            "two_pointers"
+        ]
+      },
+      {
+        "statement": "Given a string s representing a phrase, return its acronym. Acronyms should be capitalized and should not include the word 'and'.",
+        "link": "https://binarysearch.com/problems/Acronym",
+        "categories": [
+            "string"
+        ]
+      },
+      {
+        "statement": "Given a list of integer nums, return the earliest index i such that the sum of the numbers left of i is equal to the sum of numbers right of i. If there's no solution, return -1. Sum of an empty list is defined to be 0.",
+        "link": "https://binarysearch.com/problems/Index-with-Equal-Left-and-Right-Sums",
+        "categories": [
+            "array",
+            "prefix_sum"
+        ]
+      },
+      {
+        "statement": "Given a Unix path, represented as a list of strings, return its resolved version. In Unix, '..' means to go to the previous directory and '.' means to stay on the current directory. By resolving, we mean to evaluate the two symbols so that we get the final directory we're currently in.",
+        "link": "https://binarysearch.com/problems/Unix-Path-Resolution",
+        "categories": [
+            "stack"
+        ]
+      },
+      {
+        "statement": "Given a list of lowercase alphabet strings words, return the length of the longest contiguous sublist where all words share the same first letter.",
+        "link": "https://binarysearch.com/problems/Longest-Alliteration",
+        "categories": [
+            "array"
+        ]
+      },
+      {
+        "statement": "Given a positive integer n representing the amount of cents you have, return the formatted currency amount. For example, given n = 123456, return '1,234.56'.",
+        "link": "https://binarysearch.com/problems/Penny-for-Your-Thoughts",
+        "categories": [
+            "string"
+        ]
+      },
+      {
+        "statement": "You are given a list of integers seats containing 1s and 0s. Each element seats[i] represents a seat and is either occupied if seats[i] = 1 or empty if seats[i] = 0. Given that there’s at least one empty seat, return the maximum distance from an empty seat to the closest occupied seat.",
+        "link": "https://binarysearch.com/problems/Maximize-Social-Distancing",
+        "categories": [
+            "array"
+        ]
+      },
+      {
+        "statement": "You are given a strictly increasing list of integers nums and a list of integers values, both of the same length. Find a pair i ≤ j that maximizes values[i] + values[j] + nums[j] - nums[i] and return the value.",
+        "link": "https://binarysearch.com/problems/Largest-Pair-of-Points",
+        "categories": [
+            "greedy"
+        ]
+      },
+      {
+        "statement": "The Fibonacci sequence goes like this: 1, 1, 2, 3, 5, 8, 13, 21, 34, ... The next number can be found by adding up the two numbers before it, and the first two numbers are always 1. Write a function that takes an integer n and returns the nth Fibonacci number in the sequence.",
+        "link": "https://binarysearch.com/problems/Nth-Fibonacci-Number",
+        "categories": [
+            "math"
+        ]
+      },
+      {
+        "statement": "Given a list of integers nums, find the largest product of two distinct elements.",
+        "link": "https://binarysearch.com/problems/Max-Product-of-Two-Numbers",
+        "categories": [
+            "math"
+        ]
+      },
+      {
+        "statement": "You are given an integer n consisting of digits 1, 2, and 3 and you can flip one digit to a 3. Return the maximum number you can make.",
+        "link": "https://binarysearch.com/problems/123-Number-Flip",
+        "categories": [
+            "array"
+        ]
+      },
+      {
+        "statement": "Implement a data structure with the following methods: add(int val) adds the value val to the data structure, find(int val) returns whether there are two elements whose sum equals to val.",
+        "link": "https://binarysearch.com/problems/Sum-of-Two-Numbers-Online-Version",
+        "categories": [
+            "data_structure"
+        ]
+      },
+      {
+        "statement": "Given a list of integers nums, return whether there exist integers a, b, and c such that a^2 + b^2 = c^2.",
+        "link": "https://binarysearch.com/problems/Pythagorean-Triplets",
+        "categories": [
+            "math"
+        ]
+      },
+      {
+        "statement": "You are given a string s of 'a' and 'b's. 'a's can stay 'a' or turn into 'b', but 'b's can't change. Return the number of unique strings that can be made.",
+        "link": "https://binarysearch.com/problems/Unique-Ab-Strings",
+        "categories": [
+            "string"
+        ]
+      },
+      {
+        "statement": "You are given a list of integers nums representing stock prices of a company in chronological order. You can buy at most one share of stock per day, but you can hold onto multiple stocks and can sell stocks on any number of days. Return the maximum profit you can earn.",
+        "link": "https://binarysearch.com/problems/Turtle-of-Wall-Street",
+        "categories": [
+            "array",
+            "math"
+        ]
+      },
+      {
+        "statement": "Given a list of integers nums and an integer target, return the sum of the largest pair of numbers in nums whose sum is less than target.",
+        "link": "https://binarysearch.com/problems/Sum-of-Two-Numbers-Less-Than-Target",
+        "categories": [
+            "two_pointers",
+            "array"
+        ]
+      },
+      {
+        "statement": "You are given a string s containing '1', '2', '3' and '?'. Given that you can replace any '?' with '1', '2' or '3', return the smallest number you can make as a string such that no two adjacent digits are the same.",
+        "link": "https://binarysearch.com/problems/Smallest-Number-With-No-Adjacent-Duplicates",
+        "categories": [
+            "greedy",
+            "string"
+        ]
+      },
+      {
+        "statement": "Given a two dimensional list of integers votes, where each list has two elements [candidate_id, voter_id], report whether any voter has voted more than once.",
+        "link": "https://binarysearch.com/problems/Detect-Voter-Fraud",
+        "categories": [
+            "hash_table"
+        ]
+      },
+      {
+        "statement": "You are given two lists of integers a and b where every element in both lists is between 1 to 6. Consider an operation where you pick a number in either a or b and update its value to a number between 1 to 6. Return the minimum number of operations required such that the sum of a and b are equal. If it's not possible, return -1.",
+        "link": "https://binarysearch.com/problems/Equalize-List-Sums-with-Minimal-Updates",
+        "categories": [
+            "two_pointers",
+            "greedy"
+        ]
+      },
+      {
+        "statement": "You are given two lowercase alphabet strings s and t, both of them the same length. You can pick one character in s and another in t and swap them. Given you can make unlimited number of swaps, return whether it's possible to make the two strings equal.",
+        "link": "https://binarysearch.com/problems/Swap-Characters-to-Equalize-Strings",
+        "categories": [
+            "string",
+            "hash_table"
+        ]
+      },
+      {
+        "statement": "Given lowercase alphabet strings s, and t return whether you can create a 1-to-1 mapping for each letter in s to another letter (could be the same letter) such that s could be mapped to t, with the ordering of characters preserved.",
+        "link": "https://binarysearch.com/problems/String-Isomorphism",
+        "categories": [
+            "string",
+            "hash_table"
+        ]
+      },
+      {
+        "statement": "You are given three positive integers n, lower, and upper. You want to create a list of length n that is strictly increasing and then strictly decreasing and all the numbers are between [lower, upper], inclusive. Each of the increasing and decreasing parts should be non-empty. Return the lexicographically largest list possible, or the empty list if it's not possible.",
+        "link": "https://binarysearch.com/problems/Lexicographically-Largest-Mountain-List",
+        "categories": [
+            "array"
+        ]
+      },
+      {
+        "statement": "You are given a two-dimensional list of integers intervals where each element contains the inclusive interval [start, end]. Return the minimum total size of any two non-overlapping intervals, where the size of one interval [start, end] is defined to be end - start + 1. If there's no such two intervals, return 0.",
+        "link": "https://binarysearch.com/problems/Minimum-Size-of-Two-Non-Overlapping-Intervals",
+        "categories": [
+            "two_pointers",
+            "binary_search"
+        ]
+      },
+      {
+        "statement": "Given a list of sorted integers nums return the number of unique integers in the list.",
+        "link": "https://binarysearch.com/problems/Unique-Integers-in-Sorted-List",
+        "categories": [
+            "sorting",
+            "array"
+        ]
+      },
+      {
+        "statement": "Given a list of integers nums, return whether the largest number is bigger than the second-largest number by more than two times.",
+        "link": "https://binarysearch.com/problems/Largest-Number-By-Two-Times",
+        "categories": [
+            "array"
+        ]
+      },
+      {
+        "statement": "A rotation group for a string contains all of its unique rotations. For example, '123' can be rotated to '231' and '312' and they are all in the same rotation group. Given a list of strings words, group each word by their rotation group, and return the total number of groups.",
+        "link": "https://binarysearch.com/problems/Rotation-Groups",
+        "categories": [
+            "string"
+        ]
+      },
+      {
+        "statement": "Given an integer list nums, swap every consecutive even integer with each other.",
+        "link": "https://binarysearch.com/problems/Swap-Consecutive-Pair-of-Even-Numbers",
+        "categories": [
+            "array"
+        ]
+      },
+      {
+        "statement": "You are given integers n, a and b. You are standing in a line of n people. You don't know which position you're in, but you know there are at least a people in front of you and at most b people behind you. Return the number of possible positions you could be in.",
+        "link": "https://binarysearch.com/problems/Line-of-People",
+        "categories": [
+            "math"
+        ]
+      },
+      {
+        "statement": "Given a stream of integers and an integer window_size, maintain a sliding window of size window_size and compute moving averages of this window.",
+        "link": "https://binarysearch.com/problems/Sliding-Window-Average",
+        "categories": [
+            "queue",
+            "data_structure"
+        ]
+      },
+      {
+        "statement": "Given an integer n, return whether its prime factors only include 2, 3 or 5.",
+        "link": "https://binarysearch.com/problems/Ugly-Number",
+        "categories": [
+            "math"
+        ]
+      },
+      {
+        "statement": "Bob is playing a game with himself. He gives himself a list nums. Each round, Bob chooses two elements of the list and replaces them with one positive integer with the same sum as the numbers he selected. Bob declares victory when all of the number in the array are even. Return the minimum number of rounds Bob must make before he can declare victory, or return -1 if Bob can never declare victory.",
+        "link": "https://binarysearch.com/problems/Bob's-Game",
+        "categories": [
+            "math"
+        ]
+      },
+      {
+        "statement": "Given a string s representing as 12-hour clock time with am/pm, and an integer k, add k minutes to the time and return the new time in the same format.",
+        "link": "https://binarysearch.com/problems/Adding-Time",
+        "categories": [
+            "string"
+        ]
+      },
+      {
+        "statement": "Given a list of lowercase alphabet strings words, return the longest common prefix.",
+        "link": "https://binarysearch.com/problems/Longest-Common-Prefix",
+        "categories": [
+            "string"
+        ]
+      },
+      {
+        "statement": "Given a list of integers nums, put all the zeros to the back of the list by modifying the list in-place. The relative ordering of other elements should stay the same. Can you do it in O(1) additional space?",
+        "link": "https://binarysearch.com/problems/In-Place-Move-Zeros-to-End-of-List",
+        "categories": [
+            "array"
+        ]
+      }
+    ]
+  }
