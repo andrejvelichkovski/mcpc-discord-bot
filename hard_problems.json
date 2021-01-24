@@ -1,0 +1,377 @@
+{
+    "problems": [
+        {
+            "statement": "You are given a list of non-negative integers nums and integers i and j. Let A be a sorted list of the sum of every sublist of nums. Return the sum of A from [i, j], inclusive.",
+            "link": "https://binarysearch.com/problems/Sum-of-Sublist-Range-Sum",
+            "categories": [
+                "array"
+            ]
+        },
+        {
+            "statement": "Given a list of integers nums, find the length of the longest increasing subsequence assuming the subsequence can wrap around to the beginning of the list.",
+            "link": "https://binarysearch.com/problems/Circular-Longest-Increasing-Subsequence",
+            "categories": [
+                "dynamic_programming",
+                "array"
+            ]
+        },
+        {
+            "statement": "Given a list of intervals that are: non-overlapping and sorted in increasing order by end times. Merge a new interval target into the list so that the above two properties are met.",
+            "link": "https://binarysearch.com/problems/Merge-New-Interval",
+            "categories": [
+                "array",
+                "greedy"
+            ]
+        },
+        {
+            "statement": "You are given a two-dimensional list of integers matrix. Return whether you can start from some cell, move adjacent to neighboring cells (up, down, left, right) of the same value, and come back to the same starting cell. You can’t revisit a cell you last visited.",
+            "link": "https://binarysearch.com/problems/Cycle-Detection-in-a-Matrix",
+            "categories": [
+                "array"
+            ]
+        },
+        {
+            "statement": "Implement a RollingMedian class with the following methods: add(int val) which adds val to the data structure and median() which retrieves the current median of all numbers added. Median of [1, 2, 3] is 2 whereas median of [1, 2, 3, 4] is 2.5.",
+            "link": "https://binarysearch.com/problems/Rolling-Median",
+            "categories": [
+                "heap",
+                "data_structure"
+            ]
+        },
+        {
+            "statement": "You are looking to upgrade some number of towns into cities. However, there is a catch: no two cities should be adjacent to each other due to fierce competition, and every node adjacent to a town should be a city to allow easier access to infrastructure. In other words, every road must connect a town and a city. What is the maximum possible population of all the cities?",
+            "link": "https://binarysearch.com/problems/Country-Roads",
+            "categories": [
+                "graph"
+            ]
+        },
+        {
+            "statement": "You are given a two dimensional integer matrix consisting of: 0 which represents an empty cell, 1 which represents a wall, 2 which represents a person. A person can walk up, down, left, right or stay in one time unit. Find a walkable cell such that it minimizes the time it would take for everyone to meet and return the time. Note: two people can walk through the same empty cell and you can assume there is always some path between any two people.",
+            "link": "https://binarysearch.com/problems/The-Meeting-Place-Sequel",
+            "categories": [
+                "graph"
+            ]
+        },
+        {
+            "statement": "Given a lowercase alphabet string s and an integer k, you want to divide the string into k disjoint parts such that each part is a palindrome. Return the minimum number of characters that need to be changed such that this is possible.",
+            "link": "https://binarysearch.com/problems/Split-String-Into-K-Palindromes",
+            "categories": [
+                "string",
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "You are given a list of unique integers nums. We can create a binary search tree by taking each number in order and inserting it to an initially null binary search tree. Return the number of permutations of nums from which we can generate the same binary search tree. Mod the result by 10 ** 9 + 7. You can assume that the binary search tree does no rebalancing.",
+            "link": "https://binarysearch.com/problems/Permutations-to-Generate-Binary-Search-Tree",
+            "categories": [
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "Given a two-dimensional integer matrix, find the length of the longest strictly increasing path. You can move up, down, left, or right.",
+            "link": "https://binarysearch.com/problems/Longest-Increasing-Path",
+            "categories": [
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "You are given two integer lists of the same length, deadlines and credits representing course assignments. deadlines[i] represents the deadline day for assignment i and credits[i] represents the amount of credits you get for assignment i. Each assignment takes one day to complete, and can be done before or on the deadline day. You can't work on two assignments on the same day.",
+            "link": "https://binarysearch.com/problems/A-Student",
+            "categories": [
+                "heap"
+            ]
+        },
+        {
+            "statement": "You are given an integer n. In one operation you can either: decrement n by one, if n is even, decrement by n / 2, if n is divisible by 3, decrement by 2 * (n / 3). Return the minimum number of operations required to decrement n to zero.",
+            "link": "https://binarysearch.com/problems/Number-of-Decrements-to-Reach-Zero",
+            "categories": [
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "Given a two-dimensional integer matrix consisting only of 1s and 0s, return the area of the largest rectangle containing only 1s.",
+            "link": "https://binarysearch.com/problems/Largest-Rectangle-Submatrix",
+            "categories": [
+                "dynamic_programming",
+                "prefix_sum"
+            ]
+        },
+        {
+            "statement": "You are given a two-dimensional list of integers connections. Each element contains [f, t, id] meaning that bus id has a route from location f to location t. It costs one unit of money to get on a new bus, but if you stay on the same bus continuously, you only pay one unit. Return the minimum cost necessary to take the bus from location 0 to the largest location. Return -1 if it's not possible.",
+            "link": "https://binarysearch.com/problems/Cheapest-Bus-Route",
+            "categories": [
+                "graph"
+            ]
+        },
+        {
+            "statement": "You are given a two-dimensional list of integers matrix containing 1s and 0s where a 1 represents land and 0 represents water. An island is a group of 1s that are neighboring whose perimeter is surrounded by water. Return the size of the largest island given that we can change at most one water cell to land cell.",
+            "link": "https://binarysearch.com/problems/Largest-Island-After-Land-Cell-Addition",
+            "categories": [
+                "graph",
+                "union_find"
+            ]
+        },
+        {
+            "statement": "You are playing a game with Lawrence. There are several candies arranged in a line, and you are given a list of integers nums representing the point value of each candy. On each player's turn, they can select 1, 2, or 3 candies from the front of the line, remove them, and get the sum of their points added to their score. The game ends when all the candies are removed and the person with the higher score is the winner.Assuming you start first and everyone plays optimally, return whether you can win.",
+            "link": "https://binarysearch.com/problems/Candy-Race-Sequel",
+            "categories": [
+                "minimax"
+            ]
+        },
+        {
+            "statement": "Given a string s, return the minimum number of characters that can be appended to s to make it a palindrome.",
+            "link": "https://binarysearch.com/problems/Make-Palindrome-by-Adding-a-Suffix",
+            "categories": [
+                "string"
+            ]
+        },
+        {
+            "statement": "Given a list of integers nums, return the length of the longest arithmetic subsequence. A sequence B[i] is defined as an arithmetic sequence if B[i+1] - B[i] have the same value for every 0 ≤ i < len(B) - 1. For example, [1, 5, 9, 13, 17] is the longest arithmetic subsequence of [-30, 1, 10, 5, 9, -20, 13, 17].",
+            "link": "https://binarysearch.com/problems/Longest-Arithmetic-Subsequence",
+            "categories": [
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "You are given a list of integers nums and you can remove at most one element in the list. Return the maximum number of sublists that contain both the maximum and minimum elements of the resulting list.",
+            "link": "https://binarysearch.com/problems/Sublists-Containing-Maximum-and-Minimum",
+            "categories": [
+                "array"
+            ]
+        },
+        {
+            "statement": "You are given a two-dimensional list of integers edges representing a tree, where each element is of the form [x, y] meaning there's an undirected edge between x and y. You are also given integers u and v. You are currently at node u, and your opponent is at node v. Return the minimum number of rounds it takes for you to catch your opponent, given that you both play optimally.",
+            "link": "https://binarysearch.com/problems/Tag-Game-in-a-Tree",
+            "categories": [
+                "tree"
+            ]
+        },
+        {
+            "statement": "You are given a two-dimensional integer matrix and an integer target. Return the number of submatrices in matrix whose sum equals target.",
+            "link": "https://binarysearch.com/problems/Count-Submatrices-That-Sum-Target",
+            "categories": [
+                "array",
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "You are given a two-dimensional list of integers matrix. Return a new matrix A with the same dimensions such that each A[r][c] is the rank of matrix[r][c]. The ranks of any two elements a and b that are either on the same row or column are calculated by: rank(a) < rank(b) if a < b, rank(a) > rank(b) if a > b, rank(a) = rank(b) if a = b. Ranks are greater than or equal to 1 but are as small as possible.",
+            "link": "https://binarysearch.com/problems/Rank-of-a-Matrix",
+            "categories": [
+                "union_find",
+                "greedy"
+            ]
+        },
+        {
+            "statement": "Given an 2D matrix of 0s and 1s, a 1 represents land and 0 represents water. An island is a group of 1's that are surrounded by 0s or by the border. Find all the islands that are completely surrounded by water and modify them into 0s. An island is completed surrounded by water if all of the neighbours are water (that is, none of the neighbours are borders).",
+            "link": "https://binarysearch.com/problems/Sinking-Islands",
+            "categories": [
+                "graph"
+            ]
+        },
+        {
+            "statement": "You are given a 3x3 board of unique integers from 0 to 8, representing the state of a puzzle. In this puzzle, you can swap the 0 with one of its 4 neighbours (if it exists), and you are trying to solve it by obtaining the [ [0, 1, 2],[3,4,5],[6,7,8] ] configuration:",
+            "link": "https://binarysearch.com/problems/8-Puzzle",
+            "categories": [
+                "array"
+            ]
+        },
+        {
+            "statement": "Given a list of integers nums, return the sum of the medians of every odd-length sublist of the list.",
+            "link": "https://binarysearch.com/problems/Sum-of-Odd-Length-Medians",
+            "categories": [
+                "heap",
+                "array"
+            ]
+        },
+        {
+            "statement": "Given a binary tree root, return the length of the longest path in the tree where the sum of the nodes of the path is even.",
+            "link": "https://binarysearch.com/problems/Longest-Even-Sum-Path",
+            "categories": [
+                "tree"
+            ]
+        },
+        {
+            "statement": "Given a string s with all lower case characters, find the length of the longest palindromic subsequence in s.",
+            "link": "https://binarysearch.com/problems/Longest-Palindromic-Subsequence",
+            "categories": [
+                "string",
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "Given the mapping a = 1, b = 2, ... z = 26, as well as '*' which can be mapped anything from 1 to 9, and an encoded message message (as a string), count the number of ways it can be decoded. Mod the result by 10 ** 9 + 7.",
+            "link": "https://binarysearch.com/problems/Decode-Messages-Sequel",
+            "categories": [
+                "string",
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "Given a binary tree root, find the largest subtree (the one with the most nodes) that is a binary search tree.",
+            "link": "https://binarysearch.com/problems/Largest-Binary-Search-Subtree-in-Nodes",
+            "categories": [
+                "tree"
+            ]
+        },
+        {
+            "statement": "You are given a list of sorted integers stones representing the positions of stones on a river you are trying to cross. To cross the river, you must end up on the last stone. At every step, you can jump k - 1, k, or k + 1 units ahead where k is the distance of your last jump. Assuming you start on the first stone and your first jump must have a distance of 1, return whether you can cross the river.",
+            "link": "https://binarysearch.com/problems/Frogger",
+            "categories": [
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "Given a list of points [[x1, y1], [x2, y2], ..., [xn, yn]], representing a polygon, and x and y, determine if (x, y) lies inside this polygon or on the boundary. You can assume these points are given in order; that is, you can construct the polygon by connecting point 1 to point 2, point 2 to point 3, and so on, finally looping around to connect point N to point 1.",
+            "link": "https://binarysearch.com/problems/Collision-Detection",
+            "categories": [
+                "math"
+            ]
+        },
+        {
+            "statement": "Given a list of integers prices representing the stock prices of a company in chronological order, return the maximum profit you could have made from buying and selling that stock at most two times. You must buy before you can sell it.",
+            "link": "https://binarysearch.com/problems/Bull-of-Wall-Street",
+            "categories": [
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "Given two lowercase alphabet strings a and b, return the length of a minimum substring in a that contains all the characters of b. If no such substring exists, return -1.",
+            "link": "https://binarysearch.com/problems/Minimum-Window-Substring",
+            "categories": [
+                "two_pointers",
+                "string"
+            ]
+        },
+        {
+            "statement": "Given a list of integers nums, return the length of the longest subsequence where the difference between consecutive numbers alternate between positive and negative. The first difference may be either positive or negative.",
+            "link": "https://binarysearch.com/problems/Longest-Alternating-Subsequence",
+            "categories": [
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "Given a two-dimensional list of integers matrix containing 0s and 1s, 0 represents water and 1 represents land. An island is a group of connecting 1s in 4 directions that are either surrounded by 0s or by the edges. Find the shortest bridge that connects two islands.",
+            "link": "https://binarysearch.com/problems/Shortest-Bridge",
+            "categories": [
+                "graph"
+            ]
+        },
+        {
+            "statement": "Given a list of integers nums and an integer k, return the length of the longest increasing subsequence with at least k odd numbers.",
+            "link": "https://binarysearch.com/problems/Odd-Longest-Increasing-Subsequence",
+            "categories": [
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "You are given integers n, a, b, and c. Return the nth (0-indexed) term of the sorted sequence of integers divisible by a, b or c. Note that by convention the first term of any sequence always starts with 1.",
+            "link": "https://binarysearch.com/problems/Divisible-Numbers",
+            "categories": [
+                "math",
+                "binary_search"
+            ]
+        },
+        {
+            "statement": "Given two strings s and t, return the smallest substring in s such that t is also a subsequence of this substring. If there's no such substring, return '', and if there are multiple smallest substrings, return the leftmost one.",
+            "link": "https://binarysearch.com/problems/Smallest-Window-Subsequence",
+            "categories": [
+                "string"
+            ]
+        },
+        {
+            "statement": "Given a two-dimensional list of integers matrix containing 1s and 0s, return the total number of submatrices with all 1 s.",
+            "link": "https://binarysearch.com/problems/Count-Rectangular-Submatrices",
+            "categories": [
+                "math"
+            ]
+        },
+        {
+            "statement": "You are given a two-dimensional list of integers lists. Each element contains [start, end, type], meaning that from pages [start, end] inclusive, there's either an even number of words (type = 0) or an odd number of words (type = 1). Return whether lists is logically consistent.",
+            "link": "https://binarysearch.com/problems/Logically-Consistent-Book",
+            "categories": [
+                "graph"
+            ]
+        },
+        {
+            "statement": "Given a binary tree root, return the largest sum of a subtree that is also a binary search tree.",
+            "link": "https://binarysearch.com/problems/Largest-Binary-Search-Subtree-in-Value",
+            "categories": [
+                "tree"
+            ]
+        },
+        {
+            "statement": "Given lowercase alphabet strings a, b, and c, return the length of their longest common subsequence.",
+            "link": "https://binarysearch.com/problems/Longest-Common-Subsequence-of-Three-Strings",
+            "categories": [
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "Given a lowercase alphabet string s, split it into as few strings as possible such that each string is a palindrome and return the number of strings.",
+            "link": "https://binarysearch.com/problems/Split-String-Into-Palindromes",
+            "categories": [
+                "string",
+                "dynamic_programming"
+            ]
+        },
+        {
+            "statement": "Given a sorted list of integers nums0, and another sorted list nums1, find the median of the list that's obtained if nums0 and nums1 were merged. Median of a list of size n is defined to be list[floor(n / 2)]. Time complexity should be O(log(n+m)).",
+            "link": "https://binarysearch.com/problems/Median-of-Two-Sorted-Lists",
+            "categories": [
+                "divide_and_conquer",
+                "binary_search"
+            ]
+        },
+        {
+            "statement": "Given a list of lowercase alphabet strings words and a lowercase alphabet string s, return whether or not the string can be broken down using the list of words. It's not required to use all of the words and you can reuse words.",
+            "link": "https://binarysearch.com/problems/Break-String-Into-Words",
+            "categories": [
+                "backtracking"
+            ]
+        },
+        {
+            "statement": "You are given a lowercase alphabet string s which you can rotate it at any point exactly once. Return the length of the longest palindromic substring you can achieve by doing this.",
+            "link": "https://binarysearch.com/problems/Longest-Rotated-Palindromic-Substring",
+            "categories": [
+                "dynamic_programming",
+                "string"
+            ]
+        },
+        {
+            "statement": "You are given two lists of integers costs_from and costs_to of the same length where each index i represents a city. Building a one-way road from city i to j costs costs_from[i] + costs_to[j]. You are also given a two-dimensional list of integers edges where each list contains [x, y] meaning there's already a one-way road from city x to y. Given that we want to be able to go to any city from city 0 (not necessarily in one path), return the minimum cost to build the necessary roads.",
+            "link": "https://binarysearch.com/problems/Cheapest-Cost-to-All-Cities",
+            "categories": [
+                "graph"
+            ]
+        },
+        {
+            "statement": "Given a 4 x 4 board of letters and a list of valid words, return the largest number of words that can be formed in the board by a sequence of adjacent letters, using each cell at most once per word (but you can reuse cells for other words). You can go up, down, left, right, or diagonal.",
+            "link": "https://binarysearch.com/problems/Mindboggling",
+            "categories": [
+                "trie"
+            ]
+        },
+        {
+            "statement": "You are given a two-dimensional list of integers coordinates. Each list contains two integers [x, y] representing a point on the Cartesian plane. Return the maximum number of points that lie on some line.",
+            "link": "https://binarysearch.com/problems/Points-on-a-Line",
+            "categories": [
+                "math"
+            ]
+        },
+        {
+            "statement": "A network consists of nodes labeled 0 to n. You are given n and a list of edges (a, b, t) of an undirected graph, describing the time t it takes for a message to be sent from node a to node b (or vice versa). Whenever a node receives a message, it immediately passes the message on to a neighboring node. Assuming all nodes are connected, determine how long it will take for every node to receive a message that begins at node 0.",
+            "link": "https://binarysearch.com/problems/Distributed-Systems",
+            "categories": [
+                "graph"
+            ]
+        },
+        {
+            "statement": "You are given a list of positive integers nums and a positive integer k. Consider an operation where you merge exactly k consecutive numbers, which costs the sum of those numbers. Given that you can make any number of operations, return the minimum cost necessary to merge all the numbers into one number. If it's not possible, return -1.",
+            "link": "https://binarysearch.com/problems/Crush-Consecutive-Numbers",
+            "categories": [
+                "dynamic_programming"
+            ]
+        }
+    ]
+}
